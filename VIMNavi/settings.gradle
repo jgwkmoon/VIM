@@ -1,0 +1,2 @@
+rootProject.name='VIMNavi'
+include ':app', ':json-20190722', ':jts-1.14'

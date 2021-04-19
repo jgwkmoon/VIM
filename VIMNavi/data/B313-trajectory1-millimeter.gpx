@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Garmin Connect"
+    xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www.garmin.com/xmlschemas/GpxExtensionsv3.xsd http://www.garmin.com/xmlschemas/TrackPointExtension/v1 http://www.garmin.com/xmlschemas/TrackPointExtensionv1.xsd"
+    xmlns="http://www.topografix.com/GPX/1/1"
+    xmlns:gpxtpx="http://www.garmin.com/xmlschemas/TrackPointExtension/v1"
+    xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <metadata>
+        <link href="http://stem.pusan.ac.kr/web/">
+            <text>PNU STEM</text>
+        </link>
+        <time>2020-05-26T10:00:00.000Z</time>
+    </metadata>
+    <trk>
+        <name>Virtual Trajectory #1 in PNU Building313</name>
+        <trkseg>
+            <trkpt lon="31795.61401799779" lat="45344.482175012374"> <name>S267</name><ele>0.0</ele><time>2020-05-26T10:00:00.000Z</time></trkpt>
+            <trkpt lon="31819.7888951918" lat="46945.31192328154"> <name>S266</name><ele>0.0</ele><time>2020-05-26T10:00:00.000Z</time></trkpt>
+            <trkpt lon="31873.092204581833" lat="56336.58004635844"> <name>S244</name><ele>0.0</ele><time>2020-05-26T10:00:00.000Z</time></trkpt>
+            <trkpt lon="33856.221894753944" lat="56333.825080714996"> <name>S265</name><ele>0.0</ele><time>2020-05-26T10:00:00.000Z</time></trkpt>
+            <trkpt lon="36380.6255329488" lat="56304.32675759442"> <name>S264</name><ele>0.0</ele><time>2020-05-26T10:00:00.000Z</time></trkpt>
+            <trkpt lon="40295.20161127469" lat="56098.803867282775"> <name>S278</name><ele>0.0</ele><time>2020-05-26T10:00:00.000Z</time></trkpt>
+            <trkpt lon="42042.979894895485" lat="56115.027944999085"> <name>S276</name><ele>0.0</ele><time>2020-05-26T10:00:00.000Z</time></trkpt>
+            <trkpt lon="44052.10820223527" lat="56017.68347870119"> <name>S280</name><ele>0.0</ele><time>2020-05-26T10:00:00.000Z</time></trkpt>
+            <trkpt lon="45347.5712666809" lat="56041.159719156705"> <name>S285</name><ele>0.0</ele><time>2020-05-26T10:00:00.000Z</time></trkpt>
+            <trkpt lon="50161.165006666815" lat="56179.92425586437"> <name>S281</name><ele>0.0</ele><time>2020-05-26T10:00:00.000Z</time></trkpt>
+            <trkpt lon="52762.49507796314" lat="56189.76849232736"> <name>S294</name><ele>0.0</ele><time>2020-05-26T10:00:00.000Z</time></trkpt>
+            <trkpt lon="54874.10631876797" lat="56021.52858511995"> <name>S286</name><ele>0.0</ele><time>2020-05-26T10:00:00.000Z</time></trkpt>
+            <trkpt lon="57473.95759514936" lat="56180.764190141745"> <name>S290</name><ele>0.0</ele><time>2020-05-26T10:00:00.000Z</time></trkpt>
+            <trkpt lon="58750.27251188375" lat="56217.3323592995"> <name>S291</name><ele>0.0</ele><time>2020-05-26T10:00:00.000Z</time></trkpt>
+            <trkpt lon="61782.337771565006" lat="56207.6149778153"> <name>S293</name><ele>0.0</ele><time>2020-05-26T10:00:00.000Z</time></trkpt>
+            <trkpt lon="63778.67900694768" lat="56391.440233415"> <name>S296</name><ele>0.0</ele><time>2020-05-26T10:00:00.000Z</time></trkpt>
+
+            <trkpt lon="63946.085131203225" lat="61783.523819287904"> <name>S295</name><ele>0.0</ele><time>2020-05-26T10:00:00.000Z</time></trkpt>
+
+            <trkpt lon="63955.542412630755" lat="61776.805992227746"> <name>S363</name><ele>3000.0</ele><time>2020-05-26T10:00:00.000Z</time></trkpt>
+
+            <trkpt lon="63910.35084269125" lat="56090.45490743023"> <name>S386</name><ele>3000.0</ele><time>2020-05-26T10:00:00.000Z</time></trkpt>
+            <trkpt lon="63271.82521655962" lat="56046.207422749365"> <name>S385</name><ele>3000.0</ele><time>2020-05-26T10:00:00.000Z</time></trkpt>
+            <trkpt lon="61660.016754859964" lat="56071.74675279399"> <name>S384</name><ele>3000.0</ele><time>2020-05-26T10:00:00.000Z</time></trkpt>
+            <trkpt lon="58596.733668427085" lat="56094.45270876926"> <name>S383</name><ele>3000.0</ele><time>2020-05-26T10:00:00.000Z</time></trkpt>
+            <trkpt lon="57548.79529718013" lat="56079.315404785746"> <name>S382</name><ele>3000.0</ele><time>2020-05-26T10:00:00.000Z</time></trkpt>
+            <trkpt lon="55918.838772544725" lat="56193.80921660067"> <name>S400</name><ele>3000.0</ele><time>2020-05-26T10:00:00.000Z</time></trkpt>
+            <trkpt lon="54644.21647107313" lat="56277.73587525632"> <name>S381</name><ele>3000.0</ele><time>2020-05-26T10:00:00.000Z</time></trkpt>
+            <trkpt lon="51145.88305982953" lat="56140.31793699911"> <name>S380</name><ele>3000.0</ele><time>2020-05-26T10:00:00.000Z</time></trkpt>
+            <trkpt lon="47627.78505304219" lat="56081.42453488887"> <name>S378</name><ele>3000.0</ele><time>2020-05-26T10:00:00.000Z</time></trkpt>
+            <trkpt lon="45769.913071929775" lat="56179.5802050726"> <name>S379</name><ele>3000.0</ele><time>2020-05-26T10:00:00.000Z</time></trkpt>
+            <trkpt lon="44072.36523523941" lat="56193.972943356246"> <name>S348</name><ele>3000.0</ele><time>2020-05-26T10:00:00.000Z</time></trkpt>
+            <trkpt lon="40514.73803736457" lat="56017.292737025535"> <name>S346</name><ele>3000.0</ele><time>2020-05-26T10:00:00.000Z</time></trkpt>
+            <trkpt lon="36937.34624394598" lat="56076.186139135774"> <name>S343</name><ele>3000.0</ele><time>2020-05-26T10:00:00.000Z</time></trkpt>
+            <trkpt lon="33992.42150792737" lat="56154.710675282746"> <name>S341</name><ele>3000.0</ele><time>2020-05-26T10:00:00.000Z</time></trkpt>
+        </trkseg>
+    </trk>
+</gpx>

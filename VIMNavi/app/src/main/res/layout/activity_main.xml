@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/NaviLayer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/naviButton"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:onClick="onNaviButton"
+                android:text="NAVIGATION"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/currentButton"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:onClick="onCurrentButton"
+                android:text="CURRENT LOCATION"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/nearbyButton"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:onClick="onNearbyButton"
+                android:text="NEARBY LANDMARK"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/repeatButton"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:onClick="onRepeatButton"
+                android:text="REPEAT INSTRUCTION"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/suspendResumeButton"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:onClick="onSuspendResumeButton"
+                android:text="SUSPEND"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/debugButton"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="0"
+                android:onClick="onDebugButton" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/debugLayer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/coordiStatus"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dp"
+                android:text="* Coordi-Status: ##"
+                android:textSize="16sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/coordiPosition"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    android:text="* IPS (MID: ###)\n  = X: ##.###,  Y: ##.###\n  = Layer ID: #,  DIR: ##.###"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/vimPosition"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    android:text="* VIM (MID: ###)\n  = X: ##.###,  Y: ##.###\n  = Z: ##.###,  DIR: ##.### "
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/routingPath"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dp"
+                android:text="* Routing Path\n  No Path"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/vimInstruction"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dp"
+                android:text="* VIM-Instruction\n  No Instruction"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

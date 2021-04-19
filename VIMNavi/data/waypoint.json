@@ -1,0 +1,26 @@
+{
+   "floorNames":[
+      "Second Floor",
+      "Third Floor"
+   ],
+   "wayptNames":[
+      [
+         "North-Stairs",
+         "Elevator"
+      ],
+      [
+         "Elevator",
+         "Room 422"
+      ]
+   ],
+   "stateIDs":[
+      [
+         "S267",
+         "S296"
+      ],
+      [
+         "S386",
+         "S341"
+      ]
+   ]
+}
